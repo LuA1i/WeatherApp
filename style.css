@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  background-image: url(./images/background_image.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+  margin: 0;
+}
+
+.container {
+  background: rgba(53, 79, 253, 0.9);
+  padding: 30px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+  margin: 10px;
+  text-align: center;
+  box-shadow: -15px -17px 109px -3px rgba(14, 2, 246, 0.75) inset;
+  -webkit-box-shadow: -15px -17px 109px -3px rgba(14, 2, 246, 0.75) inset;
+  -moz-box-shadow: -15px -17px 109px -3px rgba(14, 2, 246, 0.75) inset;
+}
+
+input {
+  background: rgb(169, 177, 229);
+  outline: none;
+  border: none;
+  width: 250px;
+  height: 20px;
+  border-radius: 20px;
+  font-size: 15px;
+  color: white;
+}
+
+button {
+  background: rgb(169, 177, 229);
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 30px;
+  height: 20px;
+  border-radius: 20px;
+}
+
+.data {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 60px;
+}
+
+.winds i,
+.humidity i {
+  font-size: 30px;
+}
+
+img {
+  width: 100px;
+}
